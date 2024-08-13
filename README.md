@@ -24,7 +24,9 @@ python连接的前提准备，需要连接凭据（retrieve_data文件夹下的j
 #### 模型构建    
 根据论文里的做法，构建MOL_DNN模型（基于深度神经网络(Deep Neural Network, DNN)的Multi-Output Learning (MOL)模型，一种可以同时预测多个输出目标的机器学习模型），但由于最后的实际训练效果，最后一层只输出两个标签，正例和重定向漏洞标签。
 #### 模型训练  
-
+| Layer (type) | Output Shape | Param # |  
+| :----: | :----: | :----: |  
+| input_3 (InputLayer) | [(None,5018)] | 0 |  
 #### 模型检测（我和余到时候把分析结果写在这里）
 
 
