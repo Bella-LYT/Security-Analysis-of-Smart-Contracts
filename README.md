@@ -27,6 +27,18 @@ python连接的前提准备，需要连接凭据（retrieve_data文件夹下的j
 | Layer (type) | Output Shape | Param # |  
 | :----: | :----: | :----: |  
 | input_3 (InputLayer) | [(None,5018)] | 0 |  
+| embedding_2 (Embedding) | (None, 5018, 60) | 4620 |  
+| gru_2 (GRU) | (None, 32) | 9024 |  
+| batch_normalization_6 (BatchNormalization) | (None, 32) | 128 |  
+| dropout_6 (Dropout) | (None, 32) | 0 |  
+| dense_8 (Dense) | (None, 16) | 528 |  
+| dense_10 (Dense)  | (None, 16) | 528 |  
+| batch_normalization_7 (BatchNormalization) | (None, 16) | 64 |  
+| batch_normalization_8 (BatchNormalization) | (None, 16) | 64 |  
+| dropout_7 (Dropout) | (None, 16) | 0 |  
+| dropout_8 (Dropout) | (None, 16) | 0 |  
+| dense_9 (Dense) | (None, 1) | 17 |  
+| dense_11 (Dense) | (None, 1) | 17 |  
 #### 模型检测（我和余到时候把分析结果写在这里）
 
 
