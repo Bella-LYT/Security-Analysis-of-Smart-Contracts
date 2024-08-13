@@ -9,9 +9,22 @@
 
 python连接的前提准备，需要连接凭据（retrieve_data文件夹下的json文件）、安装bigquery连接库（pip install google-cloud-bigquery) 
 
-#### 数据集处理
-#### 模型构建
-#### 模型检测
+途径二：1、我准备重新收集一批标记数据集，url：https://github.com/smartbugs/smartbugs-results/tree/master/results/honeybadger/icse20，该仓库里有用一篇论文里集合了9个标记工具的honeybadger工具进行标记的漏洞数据集，约2w个，但是是根据合约地址进行标记的，最后还需要进行转换
+但是解析下来只有几百条多标签漏洞数据
+
+2、又找到了一份人工检测的数据集：Consolidated Ground Truth (CGT) is a unified and consolidated ground truth with 20,455 manually checked assessments (positive and negative) of security-related properties.
+但是解析下来只有2k多条多标签漏洞数据
+
+3、所以我又找了一个打了四个漏洞标签的数据集——https://github.com/Messi-Q/Smart-Contract-Dataset/tree/master
+
+4、最后我找了将近1w条的漏洞数据——https://github.com/sujeetc/ScrawlD/tree/main
+
+#### 数据集处理  
+根据论文里的做法，通过将字节码转换为操作码构建vocabulary，进而转化成向量
+#### 模型构建    
+根据论文里的做法，构建MOL_DNN模型（基于深度神经网络(Deep Neural Network, DNN)的Multi-Output Learning (MOL)模型，一种可以同时预测多个输出目标的机器学习模型），但由于最后的实际训练效果，最后一层只输出两个标签，正例和重定向漏洞标签。
+#### 模型训练（朱补充一下训练细节）
+#### 模型检测（我和余到时候把分析结果写在这里）
 
 
 
