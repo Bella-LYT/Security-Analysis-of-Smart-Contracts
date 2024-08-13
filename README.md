@@ -40,37 +40,9 @@ python连接的前提准备，需要连接凭据（retrieve_data文件夹下的j
 | dense_9 (Dense) | (None, 1) | 17 |  
 | dense_11 (Dense) | (None, 1) | 17 |  
 
-```chart
-,Budget,Income,Expenses,Debt
-June,5000,8000,4000,6000
-July,3000,1000,4000,3000
-Aug,5000,7000,6000,3000
-Sep,7000,2000,3000,1000
-Oct,6000,5000,4000,2000
-Nov,4000,3000,5000,
-
-type: line
-title: Monthly Revenue
-x.title: Amount
-y.title: Month
-y.suffix: $
-```
-
-
-```chart  
-,loss,val_loss  
-0.4632,0.4384  
-0.4610,0.4499  
-0.4598,0.4373
-
-
-
-type: line  
-x.title: epoch  
-```  
 模型准确率：91.98%  
 #### 模型检测（我和余到时候把分析结果写在这里）
-
+检测结果：在线文档 https://kdocs.cn/l/cbrfAIlpfG0f
 
 
 
