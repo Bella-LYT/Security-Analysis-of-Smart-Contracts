@@ -9,7 +9,8 @@
 
 python连接的前提准备，需要连接凭据（retrieve_data文件夹下的json文件）、安装bigquery连接库（pip install google-cloud-bigquery) 
 
-途径二：1、我准备重新收集一批标记数据集，url：https://github.com/smartbugs/smartbugs-results/tree/master/results/honeybadger/icse20，该仓库里有用一篇论文里集合了9个标记工具的honeybadger工具进行标记的漏洞数据集，约2w个，但是是根据合约地址进行标记的，最后还需要进行转换
+途径二：1、我准备重新收集一批标记数据集，url：https://github.com/smartbugs/smartbugs-results/tree/master/results/honeybadger/icse20
+该仓库里有用一篇论文里集合了9个标记工具的honeybadger工具进行标记的漏洞数据集，约2w个，但是是根据合约地址进行标记的，最后还需要进行转换
 但是解析下来只有几百条多标签漏洞数据
 
 2、又找到了一份人工检测的数据集：Consolidated Ground Truth (CGT) is a unified and consolidated ground truth with 20,455 manually checked assessments (positive and negative) of security-related properties.
