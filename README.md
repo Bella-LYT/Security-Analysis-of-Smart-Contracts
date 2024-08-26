@@ -55,7 +55,7 @@ safe:5000
 | dense_11 (Dense) | (None, 1) | 17 |  
 
 模型准确率：91.98%  
-模型误报率：2.3%。
+模型误报率：2.3%  
 ARTHM accuracy: 0.3976  
 CDAV accuracy: 0.9984  
 DOS accuracy: 0.9201  
@@ -67,7 +67,7 @@ UE accuracy: 0.8912
 safe accuracy: 0.3108  
 
 #### 模型检测（我和余到时候把分析结果写在这里）
-检测结果：在线文档 https://kdocs.cn/l/cbrfAIlpfG0f
+检测结果：在线文档 https://kdocs.cn/l/cbrfAIlpfG0f  
 检测数量：4/sec
 
 
