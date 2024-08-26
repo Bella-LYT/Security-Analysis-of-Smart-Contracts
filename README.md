@@ -18,9 +18,20 @@ python连接的前提准备，需要连接凭据（retrieve_data文件夹下的j
 
 3、所以我又找了一个打了四个漏洞标签的数据集——https://github.com/Messi-Q/Smart-Contract-Dataset/tree/master
 
-4、最后我找了将近1w条的漏洞数据——https://github.com/sujeetc/ScrawlD/tree/main
+4、最后我找了将近1w条的漏洞数据——https://github.com/sujeetc/ScrawlD/tree/main  
 
-******璋颖补充一下训练使用的数据集数量（训练使用的每个漏洞类型的数量）
+数据集数量：15893  
+训练集数量：12714  测试集数量：3179  
+每个漏洞类型的数量：  
+ARTHM:9492  
+CDAV:32  
+DOS:1189  
+LE:1654  
+RENT:4970   
+TimeM:2103  
+TimeO:1284  
+UE:1520  
+safe:5000  
 
 #### 数据集处理  
 根据论文里的做法，通过将字节码转换为操作码构建vocabulary，进而转化成向量
@@ -44,10 +55,20 @@ python连接的前提准备，需要连接凭据（retrieve_data文件夹下的j
 | dense_11 (Dense) | (None, 1) | 17 |  
 
 模型准确率：91.98%  
-********璋颖补充一下详细的训练指标
+模型误报率：2.3%。
+ARTHM accuracy: 0.3976  
+CDAV accuracy: 0.9984  
+DOS accuracy: 0.9201  
+LE accuracy: 0.9025
+RENT accuracy: 0.6861  
+TimeM accuracy: 0.8610  
+TimeO accuracy: 0.9236  
+UE accuracy: 0.8912  
+safe accuracy: 0.3108  
+
 #### 模型检测（我和余到时候把分析结果写在这里）
 检测结果：在线文档 https://kdocs.cn/l/cbrfAIlpfG0f
- ***********璋颖补充一下一次并发检测的耗时
+检测数量：4/sec
 
 
 
