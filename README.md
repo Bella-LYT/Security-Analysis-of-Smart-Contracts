@@ -40,19 +40,47 @@ safe:5000
 #### 模型训练  
 | Layer (type) | Output Shape | Param # |  
 | :----: | :----: | :----: |  
-| input_3 (InputLayer) | [(None,5018)] | 0 |  
-| embedding_2 (Embedding) | (None, 5018, 60) | 4620 |  
-| gru_2 (GRU) | (None, 32) | 9024 |  
-| batch_normalization_6 (BatchNormalization) | (None, 32) | 128 |  
-| dropout_6 (Dropout) | (None, 32) | 0 |  
-| dense_8 (Dense) | (None, 16) | 528 |  
+| input_1 (InputLayer) | [(None,3930)] | 0 |  
+| embedding (Embedding) | (None, 3930, 60) | 4620 |  
+| gru (GRU) | (None, 32) | 9024 |  
+| batch_normalization (BatchNormalization) | (None, 32) | 128 |  
+| dropout (Dropout) | (None, 32) | 0 |  
+| dense (Dense) | (None, 16) | 528 |  
+| dense_2 (Dense)  | (None, 16) | 528 |  
+| dense_4 (Dense)  | (None, 16) | 528 |  
+| dense_6 (Dense)  | (None, 16) | 528 |  
+| dense_8 (Dense)  | (None, 16) | 528 |  
 | dense_10 (Dense)  | (None, 16) | 528 |  
+| dense_12 (Dense)  | (None, 16) | 528 |  
+| dense_14 (Dense)  | (None, 16) | 528 |  
+| dense_16 (Dense)  | (None, 16) | 528 |  
+| batch_normalization_1 (BatchNormalization) | (None, 16) | 64 |  
+| batch_normalization_2 (BatchNormalization) | (None, 16) | 64 |  
+| batch_normalization_3 (BatchNormalization) | (None, 16) | 64 |  
+| batch_normalization_4 (BatchNormalization) | (None, 16) | 64 |  
+| batch_normalization_5 (BatchNormalization) | (None, 16) | 64 |  
+| batch_normalization_6 (BatchNormalization) | (None, 16) | 64 |  
 | batch_normalization_7 (BatchNormalization) | (None, 16) | 64 |  
 | batch_normalization_8 (BatchNormalization) | (None, 16) | 64 |  
+| batch_normalization_9 (BatchNormalization) | (None, 16) | 64 |  
+| dropout_1 (Dropout) | (None, 16) | 0 |  
+| dropout_2 (Dropout) | (None, 16) | 0 |  
+| dropout_3 (Dropout) | (None, 16) | 0 |  
+| dropout_4 (Dropout) | (None, 16) | 0 |  
+| dropout_5 (Dropout) | (None, 16) | 0 |  
+| dropout_6 (Dropout) | (None, 16) | 0 |  
 | dropout_7 (Dropout) | (None, 16) | 0 |  
 | dropout_8 (Dropout) | (None, 16) | 0 |  
+| dropout_9 (Dropout) | (None, 16) | 0 |  
+| dense_1 (Dense) | (None, 1) | 17 |  
+| dense_3 (Dense) | (None, 1) | 17 |  
+| dense_5 (Dense) | (None, 1) | 17 |  
+| dense_7 (Dense) | (None, 1) | 17 |  
 | dense_9 (Dense) | (None, 1) | 17 |  
 | dense_11 (Dense) | (None, 1) | 17 |  
+| dense_13 (Dense) | (None, 1) | 17 |  
+| dense_15 (Dense) | (None, 1) | 17 |  
+| dense_17 (Dense) | (None, 1) | 17 |  
 
 模型准确率：91.98%  
 模型误报率：2.3%  
