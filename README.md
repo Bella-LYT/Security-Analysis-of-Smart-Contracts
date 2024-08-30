@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/8a094635-13a4-428b-9576-acf5f75e1ef4)# Security-Analysis-of-Smart-Contracts
+# Security-Analysis-of-Smart-Contracts
 ## 对一篇论文的小规模复现 [论文地址](https://www.ndss-symposium.org/ndss-paper/smarter-contracts-detecting-vulnerabilities-in-smart-contracts-with-deep-transfer-learning/ "悬停显示")
 ### 技术报告——基于深度迁移学习的智能合约漏洞检测
 ### 团队成员（上海奇安信总部——盘古实验室）
