@@ -1,6 +1,13 @@
 # Security-Analysis-of-Smart-Contracts
 ## 对一篇论文的小规模复现 [论文地址](https://www.ndss-symposium.org/ndss-paper/smarter-contracts-detecting-vulnerabilities-in-smart-contracts-with-deep-transfer-learning/ "悬停显示")
-技术报告——基于深度迁移学习的智能合约漏洞检测
+### 技术报告——基于深度迁移学习的智能合约漏洞检测
+### 团队成员（上海奇安信总部——盘古实验室）
+- **唐祝寿** - 总负责人
+- **陆亦恬** - 数据分析师
+- **朱璋颖** - 数据分析师
+- **余俊** - 数据采集工程师
+
+
 ### 方法实现
 #### 数据集获取 
 途径一：目前的[开源数据集](https://github.com/mwritescode/smart-contracts-vulnerabilities?tab=readme-ov-file/ "悬停显示")
