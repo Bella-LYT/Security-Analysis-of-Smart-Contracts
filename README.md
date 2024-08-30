@@ -1,4 +1,4 @@
-# Security-Analysis-of-Smart-Contracts
+![image](https://github.com/user-attachments/assets/8a094635-13a4-428b-9576-acf5f75e1ef4)# Security-Analysis-of-Smart-Contracts
 ## 对一篇论文的小规模复现 [论文地址](https://www.ndss-symposium.org/ndss-paper/smarter-contracts-detecting-vulnerabilities-in-smart-contracts-with-deep-transfer-learning/ "悬停显示")
 ### 技术报告——基于深度迁移学习的智能合约漏洞检测
 ### 团队成员（上海奇安信总部——盘古实验室）
@@ -20,24 +20,8 @@
 
 
 
-#### 数据集获取 
-途径一：目前的[开源数据集](https://github.com/mwritescode/smart-contracts-vulnerabilities?tab=readme-ov-file/ "悬停显示")
-该数据集一共标记了10个类别：['locked-ether', 'bad-randomness', 'other', 'reentrancy', 'arithmetic', 'unchecked-calls', 'ignore', 'safe', 'double-spending', 'access-control']
-
-目前该数据集文件经过处理后整理上传到我的bigquery表中了，具体连接代码看retrieve_data文件夹下的example.py 
-
-python连接的前提准备，需要连接凭据（retrieve_data文件夹下的json文件）、安装bigquery连接库（pip install google-cloud-bigquery) 
-
-途径二：1、我准备重新收集一批标记数据集，url：https://github.com/smartbugs/smartbugs-results/tree/master/results/honeybadger/icse20
-该仓库里有用一篇论文里集合了9个标记工具的honeybadger工具进行标记的漏洞数据集，约2w个，但是是根据合约地址进行标记的，最后还需要进行转换
-但是解析下来只有几百条多标签漏洞数据
-
-2、又找到了一份人工检测的数据集：Consolidated Ground Truth (CGT) is a unified and consolidated ground truth with 20,455 manually checked assessments (positive and negative) of security-related properties.
-但是解析下来只有2k多条多标签漏洞数据
-
-3、所以我又找了一个打了四个漏洞标签的数据集——https://github.com/Messi-Q/Smart-Contract-Dataset/tree/master
-
-4、最后我找了将近1w条的漏洞数据——https://github.com/sujeetc/ScrawlD/tree/main  
+#### 二、实验
+本方法的技术框架如图1所示。通过谷歌的bigquery查询到以太坊的公开数据集，获取智能合约的字节码数据，对字节码数据进行数据处理，将处理后的数据使用深度迁移学习技术训练模型，最后使用训练完的模型检测智能合约的漏洞类型。![图1](images/图1.png)
 
 数据集数量：15893  
 训练集数量：12714  测试集数量：3179  
