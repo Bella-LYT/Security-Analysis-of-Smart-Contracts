@@ -1,0 +1,9 @@
+ARTHM,Arithmetic,Integer Overflow,Integer Underflow
+CDAV,Callstack Depth Attack Vulnerability
+DOS,Denial of Service
+LE,Locked Ether
+RENT,Reentrancy,Re-Entrancy Vulnerability
+TimeM,Time Manipulation
+TimeO,Timestamp Ordering,Transaction-Ordering Dependency,Timestamp Dependency
+Tx-Origin,Authorization through tx.origin
+UE,Unhandled Exception,Unchecked Call Return Value,Unchecked_External_Call
