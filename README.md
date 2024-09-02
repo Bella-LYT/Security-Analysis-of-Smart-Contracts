@@ -8,7 +8,6 @@
 - **余俊** - 数据采集工程师
 
 #### 项目目录  
-```plaintext
 Security-Analysis-of-Smart-Contracts/
 │
 ├── acquisition/        #数据获取
