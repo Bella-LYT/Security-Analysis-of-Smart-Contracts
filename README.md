@@ -1,5 +1,5 @@
 # Security-Analysis-of-Smart-Contracts
-## 对一篇论文的小规模复现 [论文地址](https://www.ndss-symposium.org/ndss-paper/smarter-contracts-detecting-vulnerabilities-in-smart-contracts-with-deep-transfer-learning/ "悬停显示")
+## 对一篇论文的小规模复现 [论文地址](https://www.ndss-symposium.org/ndss-paper/smarter-contracts-detecting-vulnerabilities-in-smart-contracts-with-deep-transfer-learning/ "smarter-contracts-detecting-vulnerabilities-in-smart-contracts-with-deep-transfer-learning")
 ### 技术报告——基于深度迁移学习的智能合约漏洞检测
 ### 团队成员（上海奇安信总部——盘古实验室）
 - **唐祝寿** - 项目总负责人
@@ -120,7 +120,7 @@
 | 准确率     | ARTHM          | DOS    | LE     | TimeM  | TimeO  | UE     | RENT   | Tx-Origin | Safe   |
 |            | 0.3976         | 0.9201 | 0.9025 | 0.8610 | 0.9236 | 0.8912 | 0.6861  | 0.9984  | 0.3108 |  
 
-&nbsp;&nbsp;为了验证模型的有效性，本方法对真实环境中的智能合约进行了检测，并通过人工核对对检测结果进行了确认，最终将检测结果记录在在线文档中。——https://kdocs.cn/l/cbrfAIlpfG0f。 根据在线文档中的结果，该模型准确率可达91.98%。  
+&nbsp;&nbsp;为了验证模型的有效性，本方法对真实环境中的智能合约进行了检测，并通过人工核对对检测结果进行了确认，最终将检测结果记录在在线文档中——https://kdocs.cn/l/cbrfAIlpfG0f 。根据在线文档中的结果，该模型准确率可达91.98%。  
 
 
 
