@@ -18,18 +18,19 @@ Security-Analysis-of-Smart-Contracts/
 │   └── example.py     # 数据获取示例
 │
 ├── processing/                # 数据处理
-│   ├── ？.py     # ？
-│   ├── ？.py         # ？
-│   └── ？.py        # ？
+│   ├── bytecode_to_opcode.ipynb     # 统一标签，字节码转换成操作码
+│   ├── labels.txt         # 标签类型
+│   └── opcode.txt        # 字节码和操作码对应表
 │
 ├── training/                # 模型训练
-│   ├── ？.py     # ？
-│   ├── ？.py         # ？
-│   └── requirements.txt# 依赖文件
+│   ├── opcode.txt     # 字节码和操作码对应表
+│   ├── predict_contract.py         # 模型预测
+│   ├── requirements.txt     # 依赖文件
+│   └── train_contract.py         # 模型训练
 │
 └── model/              # 模型文件
-    ├── ？    # ？
-    └── ？   # ？
+    ├── model_structure-814.json    # 模型结构
+    └──model_weights-814.h5   # 模型权重
 ```
 
 
