@@ -50,7 +50,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;本技术方法采用可扩展DNN模型进行训练，具体模型结构如图2所示。
 <p align="center">
-  <img src="images/图2.png"  height="500"/>
+  <img src="images/图2.png"  height="200"/>
 </p>
 <p align="center">
   图2
