@@ -11,13 +11,11 @@
 ```plaintext
 Security-Analysis-of-Smart-Contracts/
 │
-├── acquisition/        #数据获取
-│   ├── citric-cistern-420507-81f74d5b1bfa.json/            # bigquery连接凭证
-│   └── example.py/      # 数据获取示例
+├── README.md       # 项目说明文件
 │
-├── docs/               # 文档
-│   ├── README.md       # 项目说明文件
-│   └── requirements.txt# 依赖文件
+├── acquisition/        #数据获取
+│   ├── citric-cistern-420507-81f74d5b1bfa.json    # bigquery连接凭证
+│   └── example.py     # 数据获取示例
 │
 ├── processing/                # 数据处理
 │   ├── ？.py     # ？
@@ -27,7 +25,7 @@ Security-Analysis-of-Smart-Contracts/
 ├── training/                # 模型训练
 │   ├── ？.py     # ？
 │   ├── ？.py         # ？
-│   └── ？.py        # ？
+│   └── requirements.txt# 依赖文件
 │
 └── model/              # 模型文件
     ├── ？    # ？
